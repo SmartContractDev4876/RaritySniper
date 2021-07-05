@@ -1,0 +1,402 @@
+.searchbtn{
+    padding: 2px;
+    margin-top: 1px;
+    background-color: #eb1d2d;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border:none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .searchbtn:hover{
+    background-color: #db8718;
+  }
+  select {
+    font-family: 'FontAwesome', 'Second Font name'
+  }
+  .searchinput{
+    width:107px;
+    background-color:white;
+    color: black;
+    border-color: white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  input.searchinput:focus{
+    border-color: white;
+  }
+
+  .cars{
+    width: 154px;
+    height: 29px;
+    border-radius: 3px;
+  }
+
+  .property{
+    margin-left: 8px;
+  }
+  .logo{
+    width: 77% !important;
+  }
+  .logodiv{
+    display: flex;
+    justify-content: center !important;
+    margin-top: 10px;
+    }
+.title{
+    font-size: 20px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .card-img-overlay {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    bottom: 0;
+    left: -11px;
+    padding: 1rem;
+    border-radius: calc(0.25rem - 1px);
+  }
+  .card-img-overlay:hover{
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 425px) {
+    .card-rank{
+      
+      font-size: 11px !important;
+    }
+    .card-score{
+      padding-top: 8px !important;
+      font-size: 11px !important ;
+    }
+  }
+  .card-rank{
+    /* padding-right: 20px;
+    text-align: right;*/
+    padding-left: 22px;
+    padding-right: 0px !important;
+    padding-top: 3px;
+    color:#eb1d2d !important; 
+    font-size: 15px !important;
+  }
+  .card-body{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-top:7px
+  }
+  .card-score{
+    font-size: 15px;
+    padding-top: 2px;
+    padding-left: 1px !important;
+  }
+  .card-id{
+    padding-top: 3px;
+    width: 65px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.678);
+    color:black;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .card{
+    /* max-width:190px;
+    max-height: 230px; */
+    margin: 10px;
+} 
+.smallitemtext{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.graybackround{
+  background-color:  #eee;
+  height: 100%;
+}
+main{
+  overflow-x: hidden;
+  font-family: 'Hind', sans-serif;
+  
+}
+.blacktitle{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.content{
+  font-size: 20px;
+  border: 1px solid black;
+  text-align: center;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.rtitle{
+  margin-top: 10px;
+  font-size: 29px;
+}
+.raritycard{
+  position: relative;
+  max-width: 500px;
+  max-height: 550px;
+  border:  1px solid black;
+  border-radius: 2px;
+  margin: auto !important
+}
+.rarityimage{
+  width: 100%;
+  max-width: 498px;
+  max-height: 498px;
+}
+.rarityid{
+  width: 80px;
+  border-radius: 2px;
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.633);
+}
+.rarityrank{
+  border-radius: 2px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 140px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: rgba(22, 19, 19, 0.876);
+}
+.raritytitle{
+  padding-top: 7px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+}
+.attributes{
+  height: 40px;
+  font-size: 17px;
+  color: black;
+  padding-top: 7px;
+  text-align: center;
+}
+.margintop{
+  margin-top: 10px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.COMMON{
+  padding-top: 7px;
+  background-color: rgb(3, 135, 12);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+}
+.RAREST{
+  padding-top: 7px;
+  background-color: rgb(94, 2, 240);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+}
+.RARE{
+  padding-top: 7px;
+  background-color: rgb(249, 12, 3);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+}
+.UNCOMMON{
+  padding-top: 7px;
+  background-color: rgb(251, 203, 7);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+}
+.result{
+  padding-top: 7px;
+  background-color:black;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+}
+.width100{
+  width: 80%;
+}
+.backbtn{
+  width: 40px;
+}
+.backbtn:hover{
+ transform: scale(1.1);
+}
+.backbtn:active{
+  transform: scale(0.9);
+}
+.backbutton{
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: transparent;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item {
+  padding-right:15px;
+   padding-left: 0 !important;
+  }
+
+.pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 14px;
+    line-height: 24px;
+}
+.justifucontent{
+  display: flex;
+  justify-content: center;
+}
+
+.logoa{
+    display: flex;
+    justify-content: center;
+}
+.border2{
+  border: solid #db8718 2px;
+  padding: 10px;
+}
+.raritytitles{
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+}
+
+.raritytitle, .attributes {
+  font-size:16px;
+}
+.result {
+  font-size: 13px!important;
+  line-height: 14px;
+}
+
+.border2 {
+  border: 1px #151515 solid;
+}
+
+.border2 .row.margintop:nth-child(odd) .attributes {
+  background: white;
+  border: 1px #ccc solid;
+}
+
+.border2 .row.margintop:nth-child(even) .attributes {
+  background: #eee;
+  border-bottom: 1px #ccc solid;
+}
+.asldg{
+    display: flex;
+    justify-content: space-evenly;
+  }
+.form-control{
+  font-size: 15px !important;
+}
+#button-addon2 {
+  color:#b3b8d4
+}
+.headfilter{
+  font-size: 12px;
+  margin-left: 4px;
+}
+.smalllogo{
+  height: 32px;
+}
+.width100{
+  width: 100%;
+}
+.icons{
+  height: 100%;
+  padding-top: 5px;
+  z-index: 100;
+}
+.iconsa{
+  color: white;
+}
+.raritymain{
+  overflow-y: visible !important;
+  width: 100%;
+}
+@media only screen and (max-width: 425px) {
+  .raritymain{
+  }
+  .raritytitle{
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .raritytitles{
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .border2{
+    margin: 5px;
+    width: 98%;
+  }
+  .raritycard{
+    margin: auto !important;
+  }
+  
+}
+.cardpad{
+  padding: 20px;
+}
+.cardpads{
+  padding: 15px;
+}
